@@ -1,0 +1,45 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div {
+  width: 45rem;
+  height: 15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10rem;
+  background-color: blue;
+  color: black;
+  font-size: 60px;
+}
+span {
+  margin: 25px;
+  padding: 35px;
+  font-size: 60px;
+  background-color: yellow;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+input {
+  width: 10rem;
+  height: 3rem;
+  margin-left: 25px;
+  border: none;
+  outline: 2px solid yellow;
+  color: blue;
+  font-size: 40px;
+}
+button {
+  margin-left: 10px;
+  width: 5rem;
+  height: 3rem;
+  background-image: linear-gradient(to right, blue, yellow);
+  border: 2px solid yellow;
+  color: white;
+}
+button:hover {
+  background-image: linear-gradient(to right, yellow, blue);
+  /* border-radius: 10px; */
+}
